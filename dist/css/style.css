@@ -1,0 +1,377 @@
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icons/icomoon.eot?s06jlu");
+  src: url("../fonts/icons/icomoon.eot?s06jlu#iefix") format("embedded-opentype"), url("../fonts/icons/icomoon.ttf?s06jlu") format("truetype"), url("../fonts/icons/icomoon.woff?s06jlu") format("woff"), url("../fonts/icons/icomoon.svg?s06jlu#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-google:before {
+  content: "\e900"; }
+
+.icon-instagram:before {
+  content: "\f32d"; }
+
+.icon-menu:before {
+  content: "\e9bd"; }
+
+.icon-arrow-right2:before {
+  content: "\ea3c"; }
+
+.icon-facebook:before {
+  content: "\ea90"; }
+
+.icon-twitter:before {
+  content: "\ea96"; }
+
+@font-face {
+  font-family: 'myriad';
+  src: url("../fonts/Myriad/MyriadPro-Regular.eot?f0akox");
+  src: url("../fonts/Myriad/MyriadPro-Regular.eot?f0akox#iefix") format("embedded-opentype"), url("../fonts/Myriad/MyriadPro-Regular.ttf?f0akox") format("truetype"), url("../fonts/Myriad/MyriadPro-Regular.woff?f0akox") format("woff"), url("../fonts/Myriad/MyriadPro-Regular.svg?f0akox#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSansBold';
+  src: url("../fonts/openSansBold/OpenSansBold.eot?f0akox");
+  src: url("../fonts/openSansBold/OpenSansBold.eot?f0akox#iefix") format("embedded-opentype"), url("../fonts/openSansBold/OpenSans-Bold.ttf?f0akox") format("truetype"), url("../fonts/openSansBold/OpenSans-Bold.woff?f0akox") format("woff"), url("../fonts/openSansBold/OpenSans-Bold.svg?f0akox#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'OpenSans';
+  src: url("../fonts/openSans/2211.eot?f0akox");
+  src: url("../fonts/openSans/2211.eot?f0akox#iefix") format("embedded-opentype"), url("../fonts/openSans/OpenSans.ttf?f0akox") format("truetype"), url("../fonts/openSans/OpenSans.woff?f0akox") format("woff"), url("../fonts/openSans/OpenSans.svg?f0akox#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+.container {
+  max-width: 940px; }
+
+.default, header nav .row div .col-md-2 a:after, header section .title-block span:after, section .work h2:after, section h3:after, .Portfolio h2:after, section.our-team .title-block h3:after {
+  content: '.'; }
+
+h1 {
+  font: 48px OpenSansBold;
+  line-height: 1.2em; }
+
+h2 {
+  font: 40px OpenSansBold; }
+
+.clear {
+  clear: both; }
+
+.padding p {
+  padding: 35px 0 0 0; }
+
+.horizontal-line {
+  margin-top: 45px;
+  height: 1px;
+  background: #e6eaed; }
+
+.row div.first-block {
+  padding-left: 0; }
+
+/*HEADER*/
+header {
+  height: 1057px;
+  background: url("../img/head.jpg");
+  -webkit-background-size: cover;
+  background-size: cover; }
+  header nav .row button .icon-menu:before {
+    font-size: 20px;
+    transition: .5s ease-in-out; }
+  header nav .row button .icon-menu:hover {
+    color: #fa5c65; }
+  header nav .row div .col-md-2 a {
+    text-transform: uppercase;
+    padding: 2em 1.6em;
+    text-align: center;
+    color: #fff;
+    font-family: OpenSansBold;
+    background: #fa5c65;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px; }
+  header nav .row div .col-md-2 a:after {
+    color: #314a5b; }
+  header nav #top-menu li a {
+    color: #314a5b;
+    background: none;
+    text-transform: uppercase;
+    font: bold 14px myriad;
+    transition: 1s ease-in-out; }
+    header nav #top-menu li a i {
+      font-size: 18px;
+      transition: .5s ease-in-out;
+      color: #fa5c65; }
+  header nav #top-menu li a:hover, header nav #top-menu li a:focus {
+    color: rgba(47, 64, 108, 0.58); }
+  header nav #top-menu li a:hover i, header nav #top-menu li a:focus i {
+    color: #ff3132; }
+  header section .title-block {
+    margin-top: 310px; }
+    header section .title-block h1 {
+      text-transform: uppercase;
+      font-family: OpenSansBold;
+      color: #314a5b; }
+      header section .title-block h1 span {
+        color: #fa5c65; }
+    header section .title-block span:after {
+      color: #fa5c65; }
+    header section .title-block p {
+      margin-top: 40px;
+      color: #314a5b;
+      font: 20px OpenSansBold; }
+    header section .title-block .my-btn {
+      display: block;
+      color: #fff;
+      font: 18px OpenSansBold;
+      text-transform: uppercase;
+      margin-top: 45px;
+      background: #fa5c65;
+      padding: 1em 1.8em;
+      transition: .5s ease-in-out; }
+    header section .title-block .my-btn:hover, header section .title-block .my-btn:focus {
+      color: #e5e4e9;
+      background: #ff517b; }
+
+/*WORK*/
+section .work h2 {
+  margin-top: 65px;
+  font: 40px OpenSansBold;
+  color: #314a5b;
+  text-align: center; }
+
+section .work h2:after {
+  color: #fa5c65; }
+
+section h3 {
+  margin-top: 60px;
+  text-transform: uppercase;
+  font: 26px OpenSansBold;
+  color: #314a5b; }
+
+section h3:after {
+  color: #fa5c65; }
+
+section p {
+  margin-top: 30px;
+  text-align: justify;
+  font: 15px  OpenSans;
+  color: #b5b9c1;
+  line-height: 1.5em; }
+
+.working p {
+  width: 270px; }
+
+/*PORTFOLIO*/
+.Portfolio h2 {
+  text-transform: uppercase;
+  color: #314a5b;
+  margin-top: 35px; }
+
+.Portfolio h2:after {
+  color: #fa5c65; }
+
+.Portfolio p.tagline {
+  font: 16px OpenSans;
+  color: #314a5b;
+  margin-top: 10px; }
+
+.Portfolio p {
+  margin-top: 20px;
+  line-height: 1.4em;
+  width: 100%; }
+
+.Portfolio p + a {
+  text-transform: uppercase;
+  color: #fa5c65;
+  font: 14px myriad;
+  text-decoration: none;
+  transition: .5s ease-in-out;
+  display: block; }
+
+.Portfolio a:hover {
+  color: #ff3132; }
+
+/*OUR-TEAM*/
+section.our-team .title-block h3 {
+  font: 32px OpenSansBold;
+  color: #314a5b; }
+
+section.our-team .title-block h3:after {
+  color: #fa5c65; }
+
+section.our-team .title-block p {
+  font: bold 16px OpenSans;
+  margin-top: 5px;
+  color: #b5b9c1; }
+
+section.our-team div.block-img {
+  margin-top: 45px; }
+  section.our-team div.block-img img {
+    float: left;
+    margin-right: 20px;
+    transition: .3s ease-in-out; }
+
+section.our-team div a:hover, section.our-team div a:focus {
+  text-decoration: none; }
+
+section.our-team div a:hover img {
+  opacity: .7; }
+
+section.our-team div h4 {
+  font: 22px OpenSansBold;
+  color: #314a5b;
+  text-transform: uppercase; }
+
+section.our-team div p {
+  font: bold 14px OpenSans;
+  color: #fa5c65;
+  margin-top: 0; }
+
+/*FOOTER*/
+footer {
+  height: 90px; }
+  footer ul {
+    list-style-type: none;
+    margin: 35px 0 0 0;
+    padding: 0; }
+    footer ul li {
+      display: inline-block;
+      padding: 5px 10px 5px 10px; }
+      footer ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        transition: .3s ease-in-out;
+        color: #b9c0c6; }
+      footer ul li a:hover, footer ul li a:focus {
+        text-decoration: none;
+        color: #656565; }
+  footer .copy {
+    color: #cad0d4;
+    font: 13px OpenSans;
+    margin: 35px 0 0 0; }
+
+@media only screen and (max-width: 1200px) {
+  .working p {
+    width: 270px; } }
+
+@media only screen and (max-width: 992px) {
+  section .title-block {
+    margin-top: 115px !important; }
+  .padding p {
+    padding: 0; }
+  .working p {
+    width: 100%; }
+  .row div.first-block {
+    padding-left: 15px; } }
+
+@media only screen and (max-width: 768px) {
+  #top-menu {
+    background: rgba(99, 99, 99, 0.11);
+    text-align: center; }
+  section .title-block {
+    margin-top: 115px !important; }
+    section .title-block h1 {
+      text-align: center; }
+    section .title-block p {
+      text-align: center; }
+    section .title-block .my-btn {
+      margin: 50px auto; }
+  h3 {
+    text-align: center; }
+  .Portfolio h2 {
+    text-align: center; }
+  .Portfolio p.tagline {
+    text-align: center; }
+  .Portfolio p + a {
+    text-align: center; }
+  .our-team .title-block p {
+    text-align: center; }
+  .padding p {
+    padding: 0; }
+  footer .copy {
+    text-align: center;
+    padding-bottom: 20px; }
+  footer ul {
+    width: 162px;
+    margin: 35px auto 0; }
+  .working p {
+    width: 100%; }
+  .row div.first-block {
+    padding-left: 15px; } }
+
+@media only screen and (max-width: 480px) {
+  #top-menu {
+    background: rgba(99, 99, 99, 0.11);
+    text-align: center; }
+  section .title-block {
+    margin-top: 115px !important; }
+    section .title-block h1 {
+      text-align: center; }
+    section .title-block p {
+      text-align: center; }
+    section .title-block .my-btn {
+      margin: 50px auto; }
+  h3 {
+    text-align: center !important; }
+  .Portfolio h2 {
+    text-align: center; }
+  .Portfolio p.tagline {
+    text-align: center; }
+  .Portfolio p + a {
+    text-align: center; }
+  .our-team .title-block p {
+    text-align: center; }
+  footer .copy {
+    text-align: center;
+    padding-bottom: 20px; }
+  footer ul {
+    width: 162px;
+    margin: 35px auto 0; }
+  .row div.first-block {
+    padding-left: 15px; } }
+
+@media only screen and (max-width: 320px) {
+  #top-menu {
+    background: rgba(99, 99, 99, 0.11);
+    text-align: center; }
+  section .title-block {
+    margin-top: 115px !important; }
+    section .title-block h1 {
+      text-align: center; }
+    section .title-block p {
+      text-align: center; }
+    section .title-block .my-btn {
+      margin: 50px auto; }
+  h3 {
+    text-align: center; }
+  .Portfolio h2 {
+    text-align: center; }
+  .Portfolio p.tagline {
+    text-align: center; }
+  .Portfolio p + a {
+    text-align: center; }
+  .our-team .title-block p {
+    text-align: center; }
+  footer .copy {
+    text-align: center;
+    padding-bottom: 20px; }
+  footer ul {
+    width: 162px;
+    margin: 35px auto 0; }
+  .row div.first-block {
+    padding-left: 15px; } }

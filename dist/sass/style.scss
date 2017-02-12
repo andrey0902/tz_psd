@@ -1,0 +1,491 @@
+$main-coral: #fa5c65;
+$hover-icon-coral: #ff3132;
+$icon: #b9c0c6;
+$main-grey: #314a5b;
+$hover-linc-color: rgba(47, 64, 108, 0.58);
+$main-white: #fff;
+$main-text: #b5b9c1;
+
+@import "iconFont";
+@import "font";
+.container{
+  max-width: 940px;
+}
+.default{
+  content: '.';
+}
+h1{
+  font: 48px OpenSansBold;
+  line-height: 1.2em;
+}
+h2{
+  font: 40px OpenSansBold;
+}
+
+.clear{
+  clear:  both;
+}
+.padding p{
+  padding: 35px 0 0 0;
+}
+.horizontal-line{
+  margin-top: 45px;
+  height: 1px;
+  background: #e6eaed;
+}
+.row div.first-block{
+  padding-left: 0;
+}
+/*HEADER*/
+header{
+  height: 1057px;
+  background: url("../img/head.jpg");
+  -webkit-background-size:cover;
+  background-size: cover;
+
+  nav{
+      .row{
+        button{
+          .icon-menu:before {
+            font-size: 20px;
+            transition: .5s ease-in-out;
+          }
+          .icon-menu:hover{
+            color: $main-coral;
+          }
+        }
+        div .col-md-2{
+        a{
+          text-transform: uppercase;
+
+          padding: 2em 1.6em;
+          text-align: center;
+          color: #fff;
+          font-family: OpenSansBold;
+          background: #fa5c65;
+          border-bottom-left-radius: 5px;
+          border-bottom-right-radius: 5px;
+        }
+          a:after{
+            color: $main-grey;
+            @extend .default;
+          }
+        }
+      }
+    #top-menu{
+
+      li{
+        a{
+          color: $main-grey;
+          background: none;
+          text-transform: uppercase;
+          font: bold 14px myriad;
+          transition: 1s ease-in-out;
+          i{
+            font-size: 18px;
+            transition: .5s ease-in-out;
+            color: $main-coral;
+          }
+        }
+        a:hover,a:focus{
+          color: $hover-linc-color;
+        }
+        a:hover i,a:focus i{
+          color: $hover-icon-coral;
+        }
+      }
+
+    }
+  }
+  section{
+    .title-block{
+      margin-top: 310px;
+      h1{
+        text-transform: uppercase;
+        font-family: OpenSansBold;
+        color: $main-grey;
+        span{
+          color: $main-coral;
+        }
+      }
+      span:after{
+        color: $main-coral;
+        @extend .default;
+      }
+      p{
+        margin-top: 40px;
+        color: $main-grey;
+        font: 20px OpenSansBold;
+      }
+      .my-btn{
+        display: block;
+        color: $main-white;
+        font: 18px OpenSansBold;
+        text-transform: uppercase;
+        margin-top: 45px;
+        background: $main-coral;
+        padding: 1em 1.8em;
+        transition: .5s ease-in-out;
+      }
+      .my-btn:hover, .my-btn:focus{
+        color: #e5e4e9;
+        background: #ff517b;
+      } 
+    }
+  }
+}
+/*WORK*/
+section {
+  .work{
+    h2{
+      margin-top: 65px;
+      font: 40px OpenSansBold;
+      color: $main-grey;
+      text-align: center;
+    }
+    h2:after{
+      @extend .default;
+      color: $main-coral;
+    }
+  }
+  h3{
+    margin-top: 60px;
+    text-transform: uppercase;
+    font: 26px OpenSansBold;
+    color: $main-grey;
+  }
+  h3:after{
+    @extend .default;
+    color: $main-coral;
+  }
+  p{
+    margin-top: 30px;
+    text-align: justify;
+    font: 15px  OpenSans;
+    color: $main-text;
+    line-height: 1.5em;
+
+  }
+}
+.working{
+  p{
+    width: 270px;
+  }
+
+}
+/*PORTFOLIO*/
+.Portfolio{
+  h2{
+    text-transform: uppercase;
+    color: $main-grey;
+    margin-top: 35px;
+  }
+  h2:after{
+    @extend .default;
+    color: $main-coral;
+  }
+  p.tagline{
+    font: 16px OpenSans;
+    color: $main-grey;
+    margin-top: 10px;
+  }
+  p{
+    margin-top: 20px;
+    line-height: 1.4em;
+    width: 100%;
+  }
+  p + a{
+    text-transform: uppercase;
+    color: $main-coral;
+    font: 14px myriad;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+    display: block;
+  }
+  a:hover{
+    color:$hover-icon-coral;
+  }
+
+}
+/*OUR-TEAM*/
+section.our-team{
+  .title-block{
+    h3{
+      font: 32px OpenSansBold;
+      color: $main-grey;
+    }
+    h3:after{
+      @extend .default;
+      color: $main-coral;
+    }
+    p{
+      font: bold 16px OpenSans ;
+      margin-top: 5px;
+      color: $main-text;
+    }
+  }
+  div.block-img{
+    margin-top: 45px;
+    img{
+      float: left;
+      margin-right: 20px;
+      transition: .3s ease-in-out;
+  }
+  }
+  div{
+    a:hover, a:focus {
+
+      text-decoration: none;
+    }
+    a:hover img{
+      opacity: .7;
+    }
+    h4{
+      font: 22px OpenSansBold;
+      color: $main-grey;
+      text-transform: uppercase;
+
+    }
+    p{
+      font: bold 14px OpenSans;
+      color: $main-coral;
+      margin-top: 0;
+
+    }
+  }
+}
+/*FOOTER*/
+footer{
+  height: 90px;
+  ul{
+    list-style-type: none;
+    margin: 35px 0 0 0;
+    padding: 0;
+
+    li{
+      display: inline-block;
+      padding: 5px 10px 5px 10px ;
+      a{
+        text-decoration: none;
+        font-size: 18px;
+        transition: .3s ease-in-out;
+        color: $icon;
+      }
+      a:hover,a:focus{
+        text-decoration: none;
+        color: #656565;
+      }
+    }
+  }
+  .copy{
+    color: #cad0d4;
+    font: 13px OpenSans;
+    margin: 35px 0 0 0;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 1200px){
+  .working{
+    p{
+      width: 270px;
+    }
+
+  }
+}
+@media only screen and (max-width: 992px){
+  section{
+    .title-block{
+      margin-top: 115px !important;
+
+    }
+  }
+  .padding p{
+    padding: 0;
+  }
+  .working{
+    p{
+      width: 100%;
+    }
+  }
+  .row div.first-block{
+    padding-left: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  #top-menu{
+    background: rgba(99, 99, 99, 0.11);
+    text-align: center;
+  }
+  section{
+    .title-block{
+      margin-top: 115px !important;
+      h1{
+        text-align: center;
+      }
+      p{
+        text-align: center;
+      }
+      .my-btn{
+        margin: 50px auto;
+      }
+    }
+  }
+
+    h3{
+      text-align: center ;
+    }
+  .Portfolio{
+    h2{
+      text-align: center ;
+    }
+    p.tagline{
+      text-align: center ;
+    }
+   p + a{
+      text-align: center;
+    }
+  }
+  .our-team{
+    .title-block{
+      p{
+        text-align: center;
+      }
+    }
+  }
+  .padding p{
+    padding: 0;
+  }
+  footer{
+    .copy{
+      text-align: center ;
+      padding-bottom: 20px;
+    }
+    ul{
+      width: 162px;
+      margin: 35px auto 0;
+    }
+  }
+  .working{
+    p{
+      width: 100%;
+    }
+  }
+  .row div.first-block{
+    padding-left: 15px;
+  }
+}
+@media only screen and (max-width: 480px){
+  #top-menu{
+    background: rgba(99, 99, 99, 0.11);
+    text-align: center;
+    }
+
+  section{
+    .title-block{
+      margin-top: 115px !important;
+      h1{
+        text-align: center;
+      }
+      p{
+        text-align: center;
+      }
+      .my-btn{
+        margin: 50px auto;
+      }
+    }
+  }
+
+    h3{
+      text-align: center !important;
+    }
+  .Portfolio{
+    h2{
+      text-align: center ;
+    }
+    p.tagline{
+      text-align: center ;
+    }
+    p + a{
+      text-align: center;
+    }
+  }
+  .our-team{
+    .title-block{
+      p{
+        text-align: center;
+      }
+    }
+  }
+  footer{
+    .copy{
+      text-align: center ;
+      padding-bottom: 20px;
+    }
+    ul{
+      width: 162px;
+      margin: 35px auto 0;
+    }
+  }
+  .row div.first-block{
+    padding-left: 15px;
+  }
+}
+@media only screen and (max-width: 320px){
+  #top-menu{
+    background: rgba(99, 99, 99, 0.11);
+    text-align: center;
+  }
+  section{
+    .title-block{
+      margin-top: 115px !important;
+      h1{
+        text-align: center;
+      }
+      p{
+        text-align: center;
+      }
+      .my-btn{
+        margin: 50px auto;
+      }
+    }
+  }
+
+    h3{
+      text-align: center;
+    }
+  .Portfolio{
+    h2{
+      text-align: center ;
+    }
+    p.tagline{
+      text-align: center ;
+    }
+    p + a{
+      text-align: center;
+    }
+  }
+  .our-team{
+    .title-block{
+      p{
+        text-align: center;
+      }
+    }
+  }
+  footer{
+    .copy{
+      text-align: center ;
+      padding-bottom: 20px;
+    }
+    ul{
+      width: 162px;
+      margin: 35px auto 0;
+    }
+  }
+  .row div.first-block{
+    padding-left: 15px;
+  }
+}
